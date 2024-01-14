@@ -1,0 +1,110 @@
+# Query: proshop
+# ContextLines: 1
+
+32 results - 8 files
+
+package-lock.json:
+  1  {
+  2:   "name": "shopJoy",
+  3    "version": "2.0.0",
+
+  7      "": {
+  8:       "name": "shopJoy",
+  9        "version": "2.0.0",
+
+package.json:
+  1  {
+  2:   "name": "shopJoy",
+  3    "version": "2.0.0",
+
+readme.md:
+    1: # shopJoy eCommerce Platform (v2)
+    2  
+
+    6  
+    7: This project is part of my [MERN Stack From Scratch | eCommerce Platform](https://www.traversymedia.com/mern-stack-from-scratch) course. It is a full-featured shopping cart with PayPal & credit/debit payments. See it in action at https://www.shopJoydemo.dev
+    8  
+    9: This is version 2.0 of the app, which uses Redux Toolkit. The first version can be found [here](https://shopJoydemo.dev)
+   10  
+
+  135  The code here in the main branch has been updated since the course was published to fix bugs found by students of the course and answer common questions, if you are looking to compare your code to that from the course lessons then
+  136: please refer to the [originalcoursecode](https://github.com/bradtraversy/proshop-v2/tree/originalCourseCode) branch of this repository.
+  137  
+
+  152  
+  153: > Code changes can be seen in [ProfileScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/ProfileScreen.jsx)
+  154  
+
+  162  
+  163: > Code changes can be seen in [SearchBox.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/components/SearchBox.jsx)
+  164  
+
+  172  
+  173: > Code changes can be seen in [uploadRoutes.js](https://github.com/bradtraversy/proshop-v2/tree/main/backend/routes/uploadRoutes.js)
+  174  
+
+  204  
+  205: > Changes can be seen in [errorMiddleware.js](https://github.com/bradtraversy/proshop-v2/tree/main/backend/middleware/errorMiddleware.js), [productRoutes.js](./backend/routes/productRoutes.js), [productController.js]('./backend/controllers/productController.js') and [checkObjectId.js](./backend/middleware/checkObjectId.js)
+  206  
+
+  236  >
+  237: > - [PlaceOrderScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/PlaceOrderScreen.jsx)
+  238: > - [OrderScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/OrderScreen.jsx)
+  239: > - [ProductEditScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/admin/ProductEditScreen.jsx)
+  240: > - [ProductListScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/admin/ProductListScreen.jsx)
+  241  
+
+  253  >
+  254: > - [authSlice.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/slices/authSlice.js)
+  255: > - [cartSlice.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/slices/cartSlice.js)
+  256: > - [Header.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/components/Header.jsx)
+  257  
+
+  267  >
+  268: > - [cartUtils.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/utils/cartUtils.js)
+  269: > - [calcPrices.js](https://github.com/bradtraversy/proshop-v2/tree/main/backend/utils/calcPrices.js)
+  270  
+
+  280  >
+  281: > - [apiSlice.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/slices/apiSlice.js)
+  282  
+
+  289  
+  290: from our [authSlice.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/slices/authSlice.js) as it's never
+  291  actually used in the project in any way.
+
+  316  >
+  317: > - [PlaceOrderScreen.jsx](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/screens/PlaceOrderScreen.jsx)
+  318: > - [cartUtils.js](https://github.com/bradtraversy/proshop-v2/tree/main/frontend/src/utils/cartUtils.js)
+  319: > - [calcPrices.js](https://github.com/bradtraversy/proshop-v2/tree/main/backend/utils/calcPrices.js)
+  320  
+
+  422  Vite by default outputs the build to a **/dist** directory so we need to make
+  423: some adjustments to our [backend/server.js](https://github.com/bradtraversy/proshop-v2/tree/main/backend/server.js)
+  424  Change...
+
+frontend\package-lock.json:
+  31      "..": {
+  32:       "name": "proshop2",
+  33        "version": "2.0.0",
+
+frontend\public\index.html:
+   9      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  10:     <title>Welcome To ProShop!</title>
+  11    </head>
+
+frontend\src\components\Footer.jsx:
+  10            <Col className='text-center py-3'>
+  11:             <p>ProShop &copy; {currentYear}</p>
+  12            </Col>
+
+frontend\src\components\Header.jsx:
+  39              <Navbar.Brand>
+  40:               <img src={logo} alt='ProShop' />
+  41:               ProShop
+  42              </Navbar.Brand>
+
+frontend\src\components\Meta.jsx:
+  13  Meta.defaultProps = {
+  14:   title: 'Welcome To ProShop',
+  15    description: 'We sell the best products for cheap',
